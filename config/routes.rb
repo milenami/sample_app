@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   
-  get 'static_pager/home'
+  root 'static_pages#home'
   get 'static_pager/help'
   get 'static_pager/about'
   
